@@ -1,0 +1,342 @@
+.section button{
+				width: 120px ;
+				display: block;
+				padding: 8px 5px;
+				border-radius: 20px;
+				text-decoration: none ;
+				background-color: #ff7846 ;
+				color: #ffffff ;
+				text-align: center ;
+				margin: auto;
+				
+				}
+
+.section video{
+				width: 100% !important ;
+				height: auto !important;
+				
+				}
+				
+				
+
+
+
+.section {
+				
+	 max-width: auto;
+	 max-height: auto;
+	align-content: flex-start;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#grad4 {
+  max-width: auto;
+  height: 70px;
+  background-color: #cccccc;
+  background-image: linear-gradient(#06beb6, #48b1bf);
+}
+
+#tab1, #tab2, #tab3, #tab4{
+  float: left;
+  padding: 5px 10px 0px 10px;
+  background: #FFFFFF; 
+  background-image: linear-gradient(#faaca8, #ddd6f3); 
+  color: #FFFFFF;              /*white*/
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#tab1:hover, #tab2:hover, #tab3:hover, #tab4:hover {
+  background: #45ff;                /*blue*/ #
+}
+
+#tab1Content, #tab2Content, #tab3Content, #tab4Content {
+  margin:  ;
+  max-width: auto;
+  max-height: auto;
+  padding: 20px;
+  border: 1px solid #FF7846;
+  border-radius: 10px;
+}
+
+#tab1Content {
+ display: block; 
+}
+
+#tab2Content, #tab3Content, #tab4Content {
+ display: none; 
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+p.a {
+  font-family: "Times New Roman", Times, serif;
+font-size: 13pt;
+    background-color: #efefef;            /*Grey*/
+    padding: 10px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Handlee', Arial, serif;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;   /*dark blue*/
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;   /*darkish blue*/
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;  /*green dull*/
+  color: white;
+}
+
+
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;         /*navy blue*/
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+#header {
+    background-image: linear-gradient(#06beb6, #48b1bf);
+    background-size: cover;
+}
+#grad1 {
+  height: 200px;
+  background-color: #cccccc;
+  background-image: linear-gradient(#06beb6, #48b1bf);
+}
+#grad2 {
+  height: 200px;
+  background-color: #cccccc;
+  background-image: linear-gradient(#56ab2f, #a8e063);
+}
+#grad3 {
+  height: 200px;
+  background-color: #cccccc;
+  background-image: linear-gradient(#faaca8, #ddd6f3);
+}
+
+.hero-image {
+  
+  background-color: #cccccc; 
+  height: 80px;
+  width:80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;             /*dull black*/
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 2px solid #cecece;        /*dull white*/
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;        /*orange*/
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;   /*dull navy blue*/
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;  /*dull navy blue*/
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575; 
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+
+.intri{
+		margin: 0 auto;		
+				}
+.clearfix{
+				overflow: auto;
+				}
+
+
+
+
+
+
+
+
+#buy1, #buy2, #buy3, #buy4{
+  float: left;
+  padding: 5px 10px 0px 10px;
+  background: #FFFFFF; 
+  background-image: linear-gradient(#faaca8, #ddd6f3); 
+  color: #FFFFFF;              /*white*/
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#buy1:hover, #buy2:hover, #buy3:hover, #buy4:hover {
+  background: #45ff;                /*blue*/ #
+}
+
+#buy1Content, #buy2Content, #buy3Content, #buy4Content {
+  margin:  ;
+  max-width: auto;
+  max-height: auto;
+  padding: 20px;
+  border: 1px solid #FF7846;
+  border-radius: 10px;
+}
+
+#buy1Content {
+ display: block; 
+}
+
+#buy2Content, #buy3Content, #buy4Content {
+ display: none; 
+}
